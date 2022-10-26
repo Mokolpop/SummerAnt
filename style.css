@@ -1,0 +1,121 @@
+/* is this also a comment? */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    background-color: rgb(66, 59, 59);
+ /*   background-image: url('love.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0%; */
+}
+
+img {
+    width: 100%;   
+}
+
+section {
+    padding: 100px 0px;
+}
+
+/* header cs ig idk man */
+
+header{
+    background: rgb(81, 80, 80);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    padding: 15px 0px;
+    border-bottom: 2px solid gray;
+}
+
+.logo h2 a{
+    color: white;
+    font-size: 15px;
+}
+
+.nav_links{
+    display: flex;
+}
+.nav_links li a{
+    margin-left: 30px;
+    color: white;
+    padding: 100px;
+    transition: .3s;
+}
+
+.nav_links li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.logo h2 a:hover{
+    color: black;
+    transition: .3s;
+}
+
+
+
+/* kys now home section css ig */
+
+#home{
+    background: gray;
+}
+
+.inner_home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.child_home{
+    flex-basis: 45%;
+}
+
+.child_home h1{
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.child_home p{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.NOW{
+    color: blue;
+}
+
+.btn{
+    background: blue;
+    padding: 5px 15px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+.btn:hover{
+    background: transparent;
+}
+
+.btn:active{
+    font-size: 250px;
+}
